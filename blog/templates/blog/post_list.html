@@ -1,44 +1,23 @@
 <html>
 
-   <head> 
+	<head>     </head>
+
+	<body>
 		
-		<title>  mission   </title>    
-   
-         <link rel="stylesheet" type="text/css" href="django.css">
-		 
-		 <style>
-		 
-		        #motto{
-				    font-size:40px;
-					font-family:Lucida Sans Unicode;
-					
-				}
-				#quote{
-				    font-family:italic;
-				}
-		 
-		 
-		 </style>
-		 
+		Search:<input type="text"> <br>
+	 	
+	   {% for post in posts %}	
+		 <div>
+		     
+			<h3><a href="/"> {{ post.title}} </a> </h3>
+			<p> {{ post.published_date }} </p>
+			<p>  {{  post.text|linebreaksbr }}  </p>
+		 </div>
+	   {% endfor %}
 	
-	</head>
-   
-   <body>
-   
-       <p id="motto" align="center">  Our mission is to <font color="blue">organise </font>the <br> 
-	        world’s <font color="red">information</font> and make it  <br>
-			<font color=#00e64d>universally accessible</font> and <font color=#ffcc00>useful.</font>    
-	   </p>
-	   
-	   <p id="quote">
-	        <i>Nothing is <font color=#ff0000>failure</font> every thing counts to <font color=#339933>experience.</font>  </i>
-	   
-	   </p>
-	   
-	    
-   
-   
-   </body>
+	
+	</body>
+
 
 
 </html>
