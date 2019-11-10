@@ -1,0 +1,30 @@
+ 
+#search{
+	 padding-left:1000px;
+}
+
+#link{
+	color:tomato;
+	margin:600px;
+}
+
+h4{
+	padding-left:30px;  	
+}
+.header p{
+		
+	font-family:sanserif;
+	font-size:20px; 
+	margin-left:30px;
+}
+.date{
+    color:#cc0099;	
+}
+
+.post .title {
+margin-left:30px;
+}
+
+.post p {
+margin-left:50px;
+}	
