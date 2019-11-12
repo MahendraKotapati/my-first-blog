@@ -5,26 +5,30 @@
 
 #link{
 	color:tomato;
-	margin:600px;
+	margin-left:45%;
 }
 
 h4{
 	padding-left:30px;  	
 }
-.header p{
-		
+.title{
 	font-family:sanserif;
 	font-size:20px; 
-	margin-left:30px;
+	margin-left:800px;
+	//margin-top:0px;
 }
 .date{
     color:#cc0099;	
 }
 
-.post .title {
+.post{
 margin-left:30px;
 }
 
 .post p {
 margin-left:50px;
 }	
+
+#one{
+	margin-left:50px;
+}
